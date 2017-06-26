@@ -9,6 +9,7 @@ public class InputManager : MonoBehaviour {
 	public TextMesh Score;
 	public int playerScore;
 
+
 	private Vector3 playerStartPos;
 	private Vector3 hasABlockUnder;
 

@@ -1,0 +1,51 @@
+fileFormatVersion: 2
+guid: a7f5448eb6aab1c4fa13a3d8032f0cf4
+timeCreated: 1498501113
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Geogrotesque
+  fontNames:
+  - Geogrotesque
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 364cf331416012b4095dda87ec60e5fc, type: 3}
+  - {fileID: 12800000, guid: 4a8986a13c0a04b21b4c524edf8b5040, type: 3}
+  - {fileID: 12800000, guid: 84a835f1a6fc7aa4e811a9373e92c9c6, type: 3}
+  - {fileID: 12800000, guid: 4f57f722a0722e04ea337ed786581515, type: 3}
+  - {fileID: 12800000, guid: e5b64ee29572749d0954da3b175c3c2c, type: 3}
+  - {fileID: 12800000, guid: eab508f26247949959924d30d04bb505, type: 3}
+  - {fileID: 12800000, guid: 06b36ff255d994a5cb41bcc02ef3b561, type: 3}
+  - {fileID: 12800000, guid: 86dfe32356e6a1444bd00517a87dbffd, type: 3}
+  - {fileID: 12800000, guid: d36ac7336100447ab95a127c42ba85b9, type: 3}
+  - {fileID: 12800000, guid: d8c34da394f3c4c4c882cee6a67b2b68, type: 3}
+  - {fileID: 12800000, guid: 510442e49f1ddd64e82b8b21363de2cb, type: 3}
+  - {fileID: 12800000, guid: e6c9461501dd14660baa4b1ad58a9da1, type: 3}
+  - {fileID: 12800000, guid: 8e2a848546d73495cb4434a784095b8d, type: 3}
+  - {fileID: 12800000, guid: f2d3a0b5fda69460d88c8ac070441b1d, type: 3}
+  - {fileID: 12800000, guid: 34d67477e4946da45bde9bead6716145, type: 3}
+  - {fileID: 12800000, guid: 966e9ab73ecc98446b259127363e32ac, type: 3}
+  - {fileID: 12800000, guid: 028aeff7f6c375d44a3020626fec3d79, type: 3}
+  - {fileID: 12800000, guid: 18fede08714e8b34691b3f9ebe8e60d6, type: 3}
+  - {fileID: 12800000, guid: 969a83095f06e9f4c9939acd9a7beda1, type: 3}
+  - {fileID: 12800000, guid: 893f6649a62de3b40a1f38c5f70562e6, type: 3}
+  - {fileID: 12800000, guid: 4af11b59a8f4d45c484c6e19feb0fa49, type: 3}
+  - {fileID: 12800000, guid: 85b3a3c92994647dca6f80943f322a38, type: 3}
+  - {fileID: 12800000, guid: 39ff106b5598f4cc58228dfef9fca325, type: 3}
+  - {fileID: 12800000, guid: 6c259e8b5b90dd644b090625dd733576, type: 3}
+  - {fileID: 12800000, guid: f11ebc1c5068f47379be14263bfaa195, type: 3}
+  - {fileID: 12800000, guid: 886a57cd14168a042809cabd90332097, type: 3}
+  - {fileID: 12800000, guid: 8e37a8aec25ae094fbd872c6a766d184, type: 3}
+  - {fileID: 12800000, guid: 76a2fa3f8ce7a7f49b0bf067144d05f0, type: 3}
+  - {fileID: 12800000, guid: 54279dbfedffbcc49a3f7b43cdc3df45, type: 3}
+  - {fileID: 12800000, guid: 89f93def16e6d458ea6464a8d3fe1381, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

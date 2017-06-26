@@ -9,6 +9,7 @@ public class InfoButton : MonoBehaviour
 
     void settingBoard()
     {
+        Time.timeScale = 0;
         GameObject obj = UICamera.first.transform.parent.gameObject;
         NGUITools.AddChild(obj, setting);
     }
