@@ -10,10 +10,12 @@ public class InputManager : MonoBehaviour {
     }
 
 	void Update () {
-        if(!isGrounded()) {
+        if(!fallDown()) {
             StartCoroutine (Player.Instance.fallDawn());
             return;
         } else {
+            if(!isGrounded()) return;
+
             if(Input.GetKeyDown(KeyCode.A)) {
                 transform.Translate(Constants.left);
             } else if(Input.GetKeyDown(KeyCode.D)) {
@@ -23,19 +25,19 @@ public class InputManager : MonoBehaviour {
             } else if(Input.GetKeyDown(KeyCode.S)) {
                 transform.Translate(Constants.down);
             } else if(Input.GetKeyDown(KeyCode.Space)) {
-                //Rigidbody clone;
-                //clone = Instantiate(projectile, transform.position+new Vector3(0,1f, 0), transform.rotation) as Rigidbody;
-                //clone.AddRelativeForce (new Vector3(0, 400f, 0));
-                //clone.gameObject.GetComponent<Collider>().enabled = true;
                 Player.Instance.shot();
             } else if(Input.GetKeyDown(KeyCode.Pause)) {
             }
         }
 	}
 
-    bool isGrounded() {
+    bool fallDown() {
         if(transform.position.y < 0.9) return false;
         return true;
+    }
+
+    bool isGrounded() {
+        return Physics.Raycast(transform.position, -Vector3.up, 0.5f + 0.1f);
     }
 
 }
