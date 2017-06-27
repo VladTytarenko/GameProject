@@ -15,6 +15,6 @@ public class PlayButton : MonoBehaviour
     
     void run()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("LevelMenu");
     }
 }
